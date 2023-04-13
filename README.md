@@ -1,1 +1,1 @@
-# LevidLab
+# LevidLab - landing page 
