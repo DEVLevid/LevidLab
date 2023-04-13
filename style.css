@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background: #2D2727;
+    color: white;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title{
+    padding-top: 4rem;
+    padding-left: 8rem;
+    color: white;
+    font-size: 12pt;
+}
+
+.head-rigth{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 8pt;
+}
+
+h2{
+    cursor: pointer;
+    color: white;
+}
+
+.head-btn{
+    padding: 8px;
+    background: none;
+    color: white;
+    height: 3rem;
+    border-radius: 12px;
+    border-color: #8F43EE;
+    margin: 2rem;
+    cursor: pointer;
+    font-size: 12pt;
+    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sub{
+    color: #8F43EE;
+}
+
+.title-body{
+    font-size: 20pt;
+    padding-bottom: 1.5rem;
+}
+
+.company{
+    font-size: 12pt;
+    padding-bottom: 2rem;
+}
+
+.login-rigth img{
+    width: 100%;
+}
+
+.field-text{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.field-text input{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 12px;
+    padding: 2rem;
+    border: 2px;
+    color: darkgray;
+    background: whitesmoke;
+    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+    font-size: 12pt;
+}
+
+.field-text button{
+    width: 60%;
+    padding: 8px;
+    background: none;
+    color: white;
+    height: 3rem;
+    border-radius: 12px;
+    border-color: #8F43EE;
+    cursor: pointer;
+    font-size: 12pt;
+    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+}
+
+/*@media only screen and (max-width: 1050px) {
+    body{
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    body{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    section{
+        display: none;
+    }
+
+    .company{
+        display: none;
+    }
+
+    .title-body{
+        display: none;
+    }
+}
