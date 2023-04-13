@@ -10,7 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;
-    background: #2D2727;
+    background: #2d2727;
     color: white;
 }
 
@@ -22,16 +22,18 @@ header{
 }
 
 .title{
-    padding-top: 4rem;
-    padding-left: 8rem;
+    padding-top: 3rem;
+    padding-left: 3.5rem;
     color: white;
     font-size: 12pt;
 }
 
 .head-rigth{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
     font-size: 8pt;
+    gap: 2rem;
 }
 
 h2{
@@ -108,29 +110,116 @@ section{
     box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
 }
 
-/*@media only screen and (max-width: 1050px) {
-    body{
-        width: 100vw;
+@media only screen and (max-width: 750px){
+   
+    html{
+        font-size: 80%;
     }
+
+    body{
+        box-sizing: border-box;
+    }
+   
+    .title{
+        display: none;
+    }
+    
+    .head-rigth{
+        display: none;
+    }
+
+   .title-body{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+   }
+
+   p{
+    display: none;
+   }
+
+
+   section{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+   }
+
+   .field-text{
+    background: #4F4557;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+   }
+
+   .field-text input{
+    width: 100%;
+   }
+
+   .field-text .body-btn{
+    width: 100%;
+   }
+
+   body .field-text{
+    width: 100%;
+   }
+
+   body .body-btn{
+    width: 80%;
+   }
+
+   .login-rigth{
+    display: none;
+   }
+
+
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 1240px){
+    html{
+        font-size: 80%;
+    }
+
     body{
-        width: 100vw;
+        flex-direction: column;
         display: flex;
         align-items: center;
-        
+        justify-content: center;
+
     }
 
-    section{
-        display: none;
+    .head-btn{
+        height: auto;
     }
 
-    .company{
-        display: none;
+    .title{
+        width: 80%;
     }
+    
+    body header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+   
+    body section{
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  }
 
-    .title-body{
-        display: none;
-    }
+@media only screen and (max-width: 1920px){
+  html{
+    font-size: 80%;
+  }
 }
+
