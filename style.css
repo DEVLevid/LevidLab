@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans:wght@400;500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     height: 100vh;
     width: 100%;
@@ -14,21 +14,21 @@ body{
     color: white;
 }
 
-header{
+header {
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.title{
+.title {
     padding-top: 3rem;
     padding-left: 3.5rem;
     color: white;
     font-size: 12pt;
 }
 
-.head-rigth{
+.head-rigth {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -36,12 +36,12 @@ header{
     gap: 2rem;
 }
 
-h2{
+h2 {
     cursor: pointer;
     color: white;
 }
 
-.head-btn{
+.head-btn {
     padding: 8px;
     background: none;
     color: white;
@@ -51,53 +51,53 @@ h2{
     margin: 2rem;
     cursor: pointer;
     font-size: 12pt;
-    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+    box-shadow: -10px 10px 29px -12px rgba(0, 0, 0, 0.75);
 }
 
-section{
+section {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.sub{
+.sub {
     color: #8F43EE;
 }
 
-.title-body{
+.title-body {
     font-size: 20pt;
     padding-bottom: 1.5rem;
 }
 
-.company{
+.company {
     font-size: 12pt;
     padding-bottom: 2rem;
 }
 
-.login-rigth img{
+.login-rigth img {
     width: 100%;
 }
 
-.field-text{
+.field-text {
     flex-direction: column;
     display: flex;
     gap: 1rem;
 }
 
-.field-text input{
+.field-text input {
     width: 80%;
     height: 2.5rem;
     border-radius: 12px;
     padding: 2rem;
     border: 2px;
-    color: darkgray;
+    color: #000000;a
     background: whitesmoke;
-    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+    box-shadow: -10px 10px 29px -12px rgba(0, 0, 0, 0.75);
     font-size: 12pt;
 }
 
-.field-text button{
+.field-text button {
     width: 60%;
     padding: 8px;
     background: none;
@@ -107,107 +107,107 @@ section{
     border-color: #8F43EE;
     cursor: pointer;
     font-size: 12pt;
-    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
+    box-shadow: -10px 10px 29px -12px rgba(0, 0, 0, 0.75);
 }
 
-@media only screen and (max-width: 750px){
-   
-    html{
+@media only screen and (max-width: 750px) {
+
+    html {
         font-size: 80%;
     }
 
-    body{
+    body {
         box-sizing: border-box;
     }
-   
-    .title{
-        display: none;
-    }
-    
-    .head-rigth{
+
+    .title {
         display: none;
     }
 
-   .title-body{
-    width: 80vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
-   }
+    .head-rigth {
+        display: none;
+    }
 
-   p{
-    display: none;
-   }
+    .title-body {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    p {
+        display: none;
+    }
 
 
-   section{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-   }
+    section {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
 
-   .field-text{
-    background: #4F4557;
-    padding: 2rem;
-    border-radius: 2rem;
-    box-shadow: -10px 10px 29px -12px rgba(0,0,0,0.75);
-   }
+    .field-text {
+        background: #4F4557;
+        padding: 2rem;
+        border-radius: 2rem;
+        box-shadow: -10px 10px 29px -12px rgba(0, 0, 0, 0.75);
+    }
 
-   .field-text input{
-    width: 100%;
-   }
+    .field-text input {
+        width: 100%;
+    }
 
-   .field-text .body-btn{
-    width: 100%;
-   }
+    .field-text .body-btn {
+        width: 100%;
+    }
 
-   body .field-text{
-    width: 100%;
-   }
+    body .field-text {
+        width: 100%;
+    }
 
-   body .body-btn{
-    width: 80%;
-   }
+    body .body-btn {
+        width: 80%;
+    }
 
-   .login-rigth{
-    display: none;
-   }
+    .login-rigth {
+        display: none;
+    }
 
 
 }
 
-@media only screen and (max-width: 1240px){
-    html{
+@media only screen and (max-width: 1240px) {
+    html {
         font-size: 80%;
     }
 
-    body{
+    body {
         flex-direction: column;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-    .head-btn{
+    .head-btn {
         height: auto;
     }
 
-    .title{
+    .title {
         width: 80%;
     }
-    
-    body header{
+
+    body header {
         width: 100%;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         gap: 2rem;
+        padding-top: 1rem;
     }
-   
-    body section{
+
+    body section {
         width: 100%;
         padding: 2rem;
         height: auto;
@@ -215,11 +215,39 @@ section{
         align-items: center;
         justify-content: space-evenly;
     }
-  }
-
-@media only screen and (max-width: 1920px){
-  html{
-    font-size: 80%;
-  }
 }
 
+@media only screen and (max-width: 2050px) {
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    body header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+        padding-top: 1rem;
+    }
+
+    body section {
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .login-rigth{
+        width: 35%;
+    }
+
+}
