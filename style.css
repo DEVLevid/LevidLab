@@ -8,22 +8,20 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
     background: #2d2727;
     color: white;
 }
 
 header {
-    height: 80px;
+    height: 20vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .title {
-    padding-top: 3rem;
-    padding-left: 3.5rem;
+    padding-top: 2rem;
     color: white;
     font-size: 12pt;
 }
@@ -32,16 +30,23 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 8pt;
+    font-size: 14pt;
     gap: 2rem;
 }
 
-h2 {
+ul {
     cursor: pointer;
     color: white;
 }
 
+ul:hover {
+    background-color: #8F43EE;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
 .head-btn {
+    text-align: center;
     padding: 8px;
     background: none;
     color: white;
@@ -55,10 +60,11 @@ h2 {
 }
 
 section {
+    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .sub {
@@ -73,10 +79,7 @@ section {
 .company {
     font-size: 12pt;
     padding-bottom: 2rem;
-}
-
-.login-rigth img {
-    width: 100%;
+    line-height: 2rem;
 }
 
 .field-text {
@@ -91,7 +94,7 @@ section {
     border-radius: 12px;
     padding: 2rem;
     border: 2px;
-    color: #000000;a
+    color: #000000;
     background: whitesmoke;
     box-shadow: -10px 10px 29px -12px rgba(0, 0, 0, 0.75);
     font-size: 12pt;
